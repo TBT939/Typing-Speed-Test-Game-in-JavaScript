@@ -6,7 +6,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+  #startButtonContainer
+  {
     display: flex;
     padding: 0 10px;
     align-items: center;
