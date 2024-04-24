@@ -9,9 +9,28 @@
   #startButtonContainer
   {
     display: flex;
-    padding: 0 10px;
+    padding: 14 40px;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     background: #1e3c41;
+    border: 5px solid rgb(53, 67, 193);
+    margin: 40px;
   }
+
+  #headerContainer
+  {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center
+  }
+
+  body
+{
+  align-items: center;
+  justify-content: center;
+  background: #1e3c41;
+  display: flex;
+ 
+}
+  
