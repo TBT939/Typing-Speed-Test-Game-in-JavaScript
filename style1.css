@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #58785e;
+  background-color: #272727;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -40,7 +39,7 @@ footer {
   margin-top: 40px;
 }
 
-button#startButton {
+button {
   padding: 15px 30px;
   font-size: 18px;
   background-color: #008CBA;
@@ -49,8 +48,9 @@ button#startButton {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-bottom: 10px;
 }
 
-button#startButton:hover {
+button:hover {
   background-color: #005f80;
 }
