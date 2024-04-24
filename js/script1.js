@@ -1,8 +1,6 @@
-function onButtonClick() {
-  location.href = "typing.html"
-  }
-  
-  const button = document.querySelector('button');
-  button.addEventListener('click', onButtonClick);
-
-  document.getElementById('button').style.background='#008CBA';
+document.addEventListener('DOMContentLoaded', function() {
+  const startButton = document.getElementById('startButton');
+  startButton.addEventListener('click', function() {
+    window.location.href = "typing.html";
+  });
+});
