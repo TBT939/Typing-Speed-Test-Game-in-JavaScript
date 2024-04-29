@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   blankPageButtons.forEach(function(button) {
     button.addEventListener('click', function() {
       const page = button.getAttribute('data-page');
-      window.open(page);
+      window.location.href = page;
     });
   });
 });
