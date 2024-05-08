@@ -1,8 +1,14 @@
-function onButtonClick() {
-  location.href = "typing.html"
-  }
-  
-  const button = document.querySelector('button');
-  button.addEventListener('click', onButtonClick);
+document.addEventListener('DOMContentLoaded', function() {
+  const startButton = document.getElementById('startButton');
+  startButton.addEventListener('click', function() {
+    window.location.href = "typing.html";
+  });
 
-  document.getElementById('button').style.background='#008CBA';
+  const gameButtons = document.querySelectorAll('.gameButton');
+  gameButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      const page = button.getAttribute('data-page');
+      window.location.href = page;
+    });
+  });
+});

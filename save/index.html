@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
- <div id="headerContainer"><h1> Test </h1></div>
-
 <head>
-  <link rel="stylesheet" href="style1.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Typing Speed Test in Javascript</title>
+  <title>Games for When You're Bored</title>
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-  <div id="startButtonContainer"><button>Start</button></div>
-
-
-
-  <script src="js/script1.js"></script>
+  <header>
+    <h1>Games for When You're Bored</h1>
+  </header>
+  <main>
+    <div id="startButtonContainer">
+      <button id="startButton">Typing Speed Test</button>
+      <button class="gameButton" data-page="HangmanGame/HangmanGame.html">Hangman Game</button>
+      <button class="gameButton" data-page="SnakeGame/SnakeGame.html">Snake Game</button>
+      <button class="gameButton" data-page="Drawing/Drawing.html">Drawing Game</button>
+      <button class="gameButton" data-page="Piano/piano.html">Piano Game</button>
+      <button class="gameButton" data-page="memory/memory.html">Memory Game</button>
+      <button class="gameButton" data-page="TicTacToe/tic.html">Tic Tac Toe</button>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; Your mother </p>
+  </footer>
+  <script src="script1.js"></script>
 </body>
 </html>
